@@ -3,10 +3,13 @@
 ## TL;DR
 
 ```bash
+sudo apt update
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 npm install request-promise --no-save
 sudo apt-get install -y inotify-tools
+git clone git@github.com:RyanGittins/es6-hands-on.git
+cd es6-hands-on
 sudo chmod +x runner.sh
 
 ./runner.sh
