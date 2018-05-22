@@ -12,7 +12,7 @@ sudo chmod +x autojs.sh
 ./autojs.sh
 ```
 
-# Details
+## Details
 
 If you want to run this on your local machine with NodeJS, you'll need an experimental copy which supports ES6 features.
 
